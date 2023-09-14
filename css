@@ -1,0 +1,55 @@
+#corpo{
+    background-color: #030723e9;
+
+
+}
+.usur{
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+#principal {
+    background-color:#3a4179 ;
+    color: rgb(248, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 50%;
+    border-radius: 10px;
+    
+}
+p {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: rgb(248, 245, 245);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(141, 126, 202);
+   
+
+
+}
+
+
+#resultado {
+    color: blanchedalmond;
+}
