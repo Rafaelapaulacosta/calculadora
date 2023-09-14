@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Document</title>
+
+
+
+</head>
+
+<body id="corpo">
+
+    <div id="principal">
+
+
+        <h1>Calculdora de Gasolina</h1>
+
+        <p>
+
+            <input type="number" class="usur"   step="0.01" id="g" placeholder="preço da gasolina" />
+            <input type="number" class="usur" step="0.01" id="km" placeholder="o km rodado" />
+            <input type="number" class="usur"  step="0.01" id="litro" placeholder="digite quantos seu carro faz por litro" />
+
+            <button onclick="calcular()" class="botao">Calcular</button>
+
+        </p>
+
+    </div>
