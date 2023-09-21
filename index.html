@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Document</title>
+
+
+
+</head>
+
+<body id="corpo">
+
+    <div id="principal">
+
+
+        <h1>Calculdora de Gasolina</h1>
+
+        <p>
+
+           
+            <input type="number" class="usur" step="0.01" id="km" placeholder="o km rodado" />
+            <input type="number" class="usur"  step="0.01" id="litro" placeholder="digite quantos seu carro faz por litro" />
+            <input type="number" class="usur"   step="0.01" id="g" placeholder="preço da gasolina" />
+
+            <button onclick="calcular()" class="botao">Calcular</button>
+
+            <textarea name="area1" id="area" cols="30" rows="5"></textarea>
+
+        </p>
+
+    </div>
+ 
+
+
+</body>
+<script>
+
+    
+
+    function calcular() {
+        const preco = parseFloat(document.getElementById("g").value);
+        const rodado = parseFloat(document.getElementById("km").value);
+        const carro = parseFloat(document.getElementById("litro").value);
+        
+        const resultado = (rodado/carro*preco).toFixed(2);
+        document.getElementById('area').innerText = resultado;
+    }
+
+</script>
+
+</html>
